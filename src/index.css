@@ -1,0 +1,71 @@
+/* Fonts ==================================================================* /
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap'); */
+
+/* Null ==================================================================*/
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+header, nav, main, section, aside, footer, article, figure {display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+input, button, textarea, select {font-family: inherit; font-size: 100%;}
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button { display: none; }
+
+input::-ms-clear{display: none;}
+button{cursor: pointer; border-radius: 0;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* ============================================================== */
+
+body {
+  background-color: rgb(44, 40, 40);
+}
+
+#root {
+  padding: 50px 20px 0;
+  min-height: 100%;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
